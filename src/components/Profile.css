@@ -1,0 +1,199 @@
+#over_all {
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px #fcb713;
+}
+
+#card_btm {
+  height: 120px;
+}
+
+#reactions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.react {
+  display: flex;
+  justify-content: space-around;
+  /* font-size: 2.6vh; */
+}
+
+.rections_left {
+  display: flex;
+}
+
+.post_react {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cardImg{
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post_react:hover {
+  border: solid 1px #fcb713;
+  border-radius: 2.5vh;
+  transition: 0.2s;
+  padding-left: 1.5vh;
+  padding-right: 1.5vh;
+}
+
+#icons {
+  font-size: 3vh;
+}
+
+#icons:hover {
+  color: #fcb713;
+}
+
+.dot:hover {
+  border: solid 1px #fcb713;
+  border-radius: 0.5vh;
+}
+
+@media all and (max-width: 1500px) {
+  #over_all {
+    height: 100%;
+  }
+  #cardImg{
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #reactions {
+    font-size: 17px;
+  }
+  .react {
+    font-size: 21px;
+  }
+  #icons {
+    font-size: 25px;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media all and (max-width: 1024px) {
+  #over_all {
+    height: 100%;
+  }
+  #cardImg{
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #reactions {
+    font-size: 16px;
+  }
+
+  .react {
+    font-size: 19px;
+  }
+
+  #icons {
+    font-size: 20px;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media all and (max-width: 950px) {
+  #over_all {
+    height: 100%;
+  }
+  #cardImg{
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #reactions {
+    font-size: 16px;
+  }
+
+  .react {
+    font-size: 19px;
+  }
+
+  #icons {
+    font-size: 20px;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media all and (max-width: 786px) {
+  #over_all {
+    height: 100%;
+  }
+  #cardImg{
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #reactions {
+    font-size: 15px;
+  }
+
+  .react {
+    font-size: 18px;
+  }
+
+  #icons {
+    font-size: 15px;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media all and (max-width: 450px) {
+  #over_all {
+    height: 100%;
+  }
+  #cardImg{
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #reactions {
+    font-size: 11px;
+  }
+
+  .react {
+    font-size: 14px;
+  }
+
+  #icons {
+    font-size: 15px;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>. */
+@media all and (max-width: 320px) {
+  #over_all {
+    height: 100%;
+  }
+  #cardImg{
+    width: 90%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #reactions {
+    font-size: 8px;
+  }
+
+  .react {
+    font-size: 12px;
+  }
+
+  #icons {
+    font-size: 12px;
+  }
+}
